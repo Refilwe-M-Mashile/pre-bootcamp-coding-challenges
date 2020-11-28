@@ -4,31 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-BootCamp Coding Challenges</title>
+    <!--My Styles-->
+    <link href = "/task 12/styles.css" rel="stylesheet">
+    <!--My font-->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
 </head>
 <body>
+    <h1>Pre-BootCamp Coding Challenges</h1>
+    <p style = "text-align: center;"><i>By Refilwe M. Mashile</i></p>
     <h1>Task 1</h1>
+    <div class = "task">
+        <P>The value of X = 1</P>
+        <P>The value of Y = 0</P>
+        <P>Given the following Calculations:</P>
+        <ol>
+            <li>X = X + 3</li>
+            <li>Y = Y + X</li>
+        </ol>
+        <input type = "number" id = "x1" placeholder="Enter the final value of X">
+        <input type = "number" id = "y1" placeholder="Enter the final value of Y">
+        <button type="submit" class = "btn">Submit</button>
+        <h4 class ='results'></h4>
+    </div>
+
 
     <h1>Task 2</h1>
+    <div class = "task">
+        <P>Given the following Equations:</P>
+        <ol>
+            <li>x = 1 + 1 * 2</li>
+            <li>y = (1 + 1) * 2</li>
+            <li>z = 1 + ( 1 * 2 )</li>
+            <li>a =  1 + 1 * 2 / 2</li>
+            <li>b =  (1 + 1 * 2 ) /  2</li>
+        </ol>
+        <input type = "number" id = "x2" placeholder="value of x">
+        <input type = "number" id = "y2" placeholder="value of y">
+        <input type = "number" id = "z2" placeholder="value of z">
+        <input type = "number" id = "a2" placeholder="value of a">
+        <input type = "number" id = "b2" placeholder="value of b">
+        <button type="submit" class = "btn">Submit</button>
+        <h4 class ='results'></h4>
+    </div>
+    
 
     <h1>Task 3</h1>
+    <div class="task">
+    <p>Enter any two values below, then the program will return <strong>true</strong> if any of your numbers is 65 OR if they both add up to 65, and <strong>false</strong> if otherwise.</p>
+    <input type = "number" id = "x3" placeholder="first number">
+    <input type = "number"  id = "y3" placeholder="second number">
+    <button type="submit" class = "btn">Submit</button>
+    <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 4</h1>
+    <div class="task">
+        <p>Enter any two values below, then the program will return <strong>true</strong> if any of your numbers is 3 AND their sum contains a 3, and <strong>false</strong> if otherwise.</p>
+        <input type = "number" id = "x4" placeholder="first number">
+        <input type = "number" id = "y4"placeholder="second number">
+        <button type="submit" class = "btn">Submit</button>
+        <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 5</h1>
+    <div class="task">
+        <p>Enter the three sides of any triangle below, and get the total Area of that triangle</p>
+        <input type = "number" id = "x5" placeholder="side 1">
+        <input type = "number" id = "y5" placeholder="side 2">
+        <input type = "number" id = "z5" placeholder="side 3">
+        <button type="submit" class = "btn">Calculate Area</button>
+        <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 6</h1>
+    <div class="task">
+        <p>Enter any three numbers, and the program will tell you which one is the maximum number</p>
+        <input type = "number" id = "x6" placeholder="1st number">
+        <input type = "number" id = "y6" placeholder="2nd number">
+        <input type = "number" id = "z6" placeholder="3rd number">
+        <button type="submit" class = "btn">Find Max</button>
+        <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 7</h1>
+    <div class="task">
+    <p>Convert from Celsius to Fahrenheit or Fahrenheit to Celsius <i>(Only type on the unit you want to convert from, then click Convert and <strong>NB! Refresh page for new submission.</strong>)</i></p>
+    
+    <input type = "number" id = "x7" onfocus="this.value=''" placeholder="°C">
+    <strong>=</strong>
+    <input type = "number"  id = "y7" onfocus="this.value=''" placeholder="°F">
+    <button type="submit" class = "btn">Convert</button>
+    
+    </div>
 
     <h1>Task 8</h1>
+    <div class="task">
+        <p>Enter any number below, and we will convert it to hours and minutes. <i>(For example, 71 will become “1 hour, 11 minutes”; 133 will become “2 hours, 13 minutes”.)</i></p>
+        <input type = "number"  id = "x8" placeholder="Enter number">
+        <button type="submit" class = "btn">Submit</button>
+        <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 9</h1>
+    <div class="task">
+        <p>This function will generate the sum of multiples of 3 and 5 under <strong>1000</strong></p>
+        <button type="submit" class = "btn">Get Sum</button>
+        <h4 class ='results'></h4>
+    </div>
 
     <h1>Task 10</h1>
+    <div class="task">
+        <p>This function will print the vowels that exists in any word</p>
+        <input type = "text" id = "x10" placeholder="Enter your word">
+        <button type="submit" class = "btn">Get Vowels</button>
+        <h4 class ='results'></h4>
+    </div>
     
     <h1>Task 11</h1>
+    <div class="task">
+        <p>Enter any two different words below, and we will show you the letters they have in common</p>
+        <input type = "text" id = "x11" placeholder="first word">
+        <input type = "text" id = "y11" placeholder="second word">
+        <button type="submit" class = "btn">Check Common</button>
+        <h4 class ='results'></h4>
+    </div>
 
 
-    
+    <script src = "index.js" charset="utf-8"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+.task{
+    background-color: #122d3d;
+    /*padding:15px;*/
+    padding: 5px 10px 15px 5px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+h1{
+    color:rgb(26, 129, 67);
+    text-align: center;
+    font-family:Lobster;
+    
+}
+
+body{
+    background-color: #18242B;
+    color:#fff;
+}
+
+.btn{
+    border-radius: 10%;
+    background-color:rgb(26, 129, 67);
+    color:#fff;
+}

@@ -1,7 +1,7 @@
-function getVowels(string){
+function getVowels(word){
    var vowels = [];
-    for(var i = 0; i < string.length; i++){
-        var char = string[i];
+    for(var i = 0; i < word.length; i++){
+        var char = word[i];
         switch(char){
             case "A": //uppercase
             case "a": //lowercase
