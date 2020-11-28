@@ -15,7 +15,7 @@ function findMax(num1, num2, num3) {
 
 //take an array of numbers for find max
 function bonus(arr) {
-    var tempMax = arr[0];  //assume that first number in arrray is the max number
+    var tempMax = arr[0];  //assume that first number in array is the max number
     
     for(var i = 1; i < arr.length; i++){
         if(arr[i]>= tempMax){
