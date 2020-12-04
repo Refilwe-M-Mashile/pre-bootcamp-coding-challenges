@@ -104,7 +104,7 @@ document.querySelectorAll("button")[9].addEventListener("click", function () {
   var word = document.getElementById("x10").value;
 
   document.getElementsByClassName("results")[8].innerHTML =
-    "Vowels: " + getVowels(word);
+    "Vowels: " + findVowels(word);
 });
 
 /*T A S K   11*/

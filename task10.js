@@ -1,4 +1,4 @@
-function getVowels(word) {
+function findVowels(word) {
   var vowels = [];
   
   for (var i = 0; i < word.length; i++) {
@@ -33,8 +33,7 @@ function getVowels(word) {
     }
   }
 
-  console.log(vowels);
   return vowels;
 }
 
-getVowels("RefIlwe");
+console.log("Vowels: " + findVowels("RefIlwe"));
