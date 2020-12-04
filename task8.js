@@ -3,7 +3,6 @@ function getTime(num) {
   var mins = num % 60;
   var output = "";
 
-  //handling plurals and singulars
   if (hours > 1) {
     output += hours + " hours, ";
   } else {
