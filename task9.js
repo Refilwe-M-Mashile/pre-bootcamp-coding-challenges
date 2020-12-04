@@ -1,4 +1,4 @@
-function getSum() {
+function calcSum() {
   var sum = 0;
 
   for (var i = 3; i < 1000; i++) {
@@ -6,8 +6,8 @@ function getSum() {
       sum += i;
     }
   }
-  console.log("Sum: " + sum);
+  
   return sum;
 }
 
-getSum();
+console.log("Sum: " + calcSum());

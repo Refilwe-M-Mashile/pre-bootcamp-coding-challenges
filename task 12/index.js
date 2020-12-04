@@ -96,7 +96,7 @@ document.querySelectorAll("button")[7].addEventListener("click", function () {
 
 /*T A S K   9*/
 document.querySelectorAll("button")[8].addEventListener("click", function () {
-  document.getElementsByClassName("results")[7].innerHTML = "Sum: " + getSum();
+  document.getElementsByClassName("results")[7].innerHTML = "Sum: " + calcSum();
 });
 
 /*T A S K   10*/
