@@ -17,6 +17,7 @@ function getTime(num) {
   }
 
   console.log(output);
+  return output;
 }
 
 getTime(121);

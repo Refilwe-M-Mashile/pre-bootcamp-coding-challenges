@@ -1,10 +1,11 @@
 function getVowels(word) {
   var vowels = [];
+  
   for (var i = 0; i < word.length; i++) {
     var char = word[i];
     switch (char) {
-      case "A": //uppercase
-      case "a": //lowercase
+      case "A":
+      case "a":
         if (!vowels.includes("a")) {
           vowels.push("a");
         }
@@ -33,6 +34,7 @@ function getVowels(word) {
   }
 
   console.log(vowels);
+  return vowels;
 }
 
 getVowels("RefIlwe");

@@ -7,6 +7,7 @@ function getSum() {
     }
   }
   console.log("Sum: " + sum);
+  return sum;
 }
 
 getSum();

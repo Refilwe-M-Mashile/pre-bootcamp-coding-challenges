@@ -12,6 +12,7 @@ function getCommons(string1, string2) {
   }
 
   console.log("Common Letters: " + commons);
+  return commons;
 }
 
 getCommons("house", "computers");
