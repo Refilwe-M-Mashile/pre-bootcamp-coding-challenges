@@ -16,8 +16,7 @@ function getTime(num) {
     output += mins + " minute";
   }
 
-  console.log(output);
   return output;
 }
 
-getTime(121);
+console.log(getTime(121));
